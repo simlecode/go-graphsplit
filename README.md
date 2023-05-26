@@ -68,8 +68,8 @@ ba...,graph-slice-name.car,inner-structure-json
 If set --calc-commp=true, two another fields would be add to manifest.csv
 ```sh
 cat /path/to/car-dir/manifest.csv
-payload_cid,filename,piece_cid,piece_size,detail
-ba...,graph-slice-name.car,baga...,16646144,inner-structure-json
+payload_cid,filename,piece_cid,payload_size,piece_size,detail
+ba...,graph-slice-name.car,baga...,16646144,16646144,inner-structure-json
 ```
 
 Import car file to IPFS: 
